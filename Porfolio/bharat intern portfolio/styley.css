@@ -1,0 +1,122 @@
+body{
+    background-image: url('color.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: border-box;
+    background-attachment: fixed;
+    background-size: cover;
+    
+
+}
+.sidebar nav ul li{
+    list-style: none;
+}
+.tab-title {
+    display: flex;
+    margin: 20px 0 40px;
+    
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: plum;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0 3px;
+    cursor: pointer;
+
+
+}
+.tab-title p{
+    text-align: center;
+}
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor:pointer;
+    position: relative;
+}
+.tab-links::after{
+    content: '';
+    width:0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.tab-links.active-link::after{
+    width: 50%;
+
+}
+.tab-contents ul li{
+    list-style: none;
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'poppins',sans-serif;
+        box-sizing: border-box;
+    }
+    
+    
+    
+    
+    
+    .about-col-2 {
+        flex-basis:60%;
+        font-family: cursive;
+        text-align: center;
+    }
+    .about-col-2 h1{
+        color: dodgerblue;
+        text-align: center;
+    }
+    
+    .sub-title{
+        font-size: 60px;
+        font-weight: 600;
+        color: #fff;
+    } 
+    .tab-title{
+        display: flex;
+        margin: 20px 0 40px;
+    }
+    .tab-links{
+        margin-right: 50px;
+        font-size: 18px;
+        font-weight: 500;
+        cursor:pointer;
+        position: relative;
+    }
+    .tab-links::after{
+        content: '';
+        width:0;
+        height: 3px;
+        background: #ff004f;
+        position: absolute;
+        left: 0;
+        bottom: -8px;
+        transition: 0.5s;
+    }
+    .tab-links.active-link::after{
+        width: 50%;
+    
+    }
+    .tab-contents ul li{
+        list-style: none;
+        margin: 10px 0;
+    }
+    .tab-contents ul li span{
+        color:#b54769
+    
+    }
+    .tab-contents{
+        display: none;
+    }
+    .tab-contents.active-tab{
+        display: block;
+    }
+    

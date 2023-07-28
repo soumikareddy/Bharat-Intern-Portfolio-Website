@@ -1,0 +1,105 @@
+<!DOCTYPE html>	
+<html lang="en">
+<head>
+	<meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>portfolio Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+	
+</head>
+<body>
+    <div class="container">
+    <div class="sidebar">
+        
+        <nav>
+           <ul>
+            <li><a href="/indexp.html"><button class="btn">Home</button></a></li>
+            
+           </ul>
+        </nav>
+    </div>
+    <div class="main">
+      <div id="contact">
+        
+           <div class="row">
+             <div class="contact-left">
+               <h1 class="sub-title">Contact Me</h1>
+               <p><i class="fa-solid fa-envelope" style="color: #e63b7a;"></i>soumikareddy643@gmail.com</p>
+               <p><i class="fa fa-phone-square"></i>7989845504</p>
+               <div class="social-icons"><br>
+  
+                 <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                 <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                 <a href="https://www.linkedin.com/in/soumika-chitteti-2b5356270"><i class="fab fa-linkedin"></i></a>
+                 <a href="https://github.com/soumikareddy"><i class="fa-brands fa-github"></i></a>
+               </div><br><br>
+               <a href="https://docs.google.com/document/d/1IbYKYXqbpBkigjSzrBL1iFOF7gCMmb2F/edit?usp=drive_link" download class="btn btn2">Download Resume</a>
+             </div>
+  
+        <div class="contactform">
+          
+            <form>
+              <div class="mb-3">
+                <label for="clientemail" class="form-label">Name</label>
+                <input type="name" class="form-control" id="clientemail" aria-describedby="emailHelp">
+               </div>
+                <div class="mb-3">
+                  <label for="clientemail" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+                   <div id="emailHelp" class="form-text">We'll never share your email & phone with anyone else.</div>
+                </div> 
+                <div class="mb-3">
+                  <label for="Clientphone" class="form-label">phone</label>
+                  <input type="phone" class="form-control" id="Clientphone">
+                </div>
+                <div class="mb-3">
+                  <label for="clientemail" class="form-label">Message</label>
+                  <input type="name" class="form-control" id="emailHelp" aria-describedby="emailHelp">
+                </div>
+
+                
+                <button type="submit" class="btn btn-sm">Submit</button>
+              </form>
+        </div>
+        
+    
+    </div>
+    </div>
+     </div>
+     <div class="copyright">
+			
+		   </div>
+		   </div>
+	<script>
+		var tablinks=document.getElementsByClassName("tab-links");
+		var tabcontents=document.getElementsByClassName("tab-contents");
+		function opentab(tabname){
+			for(tablink of tablinks){
+				tablink.classList.remove("active-link");
+			}
+			for(tabcontent of tabcontents){
+				tabcontent.classList.remove("active-tab");
+		}
+		event.currentTarget.classList.add("active-link");
+		document.getElementById(tabname).classList.add("active-tab");
+	}
+   
+	</script><script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+          sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+      </script>    
+    <script src="https://kit.fontawesome.com/8ceb11f307.js" crossorigin="anonymous"></script> 
+    
+
+
+</body>
+</html>

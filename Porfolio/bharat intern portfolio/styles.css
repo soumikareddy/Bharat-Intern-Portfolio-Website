@@ -1,0 +1,89 @@
+
+body{
+    background-image: url('color.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: border-box;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+
+
+}
+.intro nav li a{
+    text-align: center;
+}
+
+
+.sidebar nav ul li{
+    list-style: none;
+
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: plum;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0 3px;
+    cursor: pointer;
+
+
+}
+.contactform h1{
+
+    font-family: 'Source Code Pro',monospace;
+     padding: 12px 0;
+     text-align: center;
+
+}
+.contactform form div{
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+     
+}
+.contactform form div input{
+    width: 36vw;
+    border-radius: 5px;
+    margin: 6px 500px 6px 500px;
+    padding: 3px;
+    
+    
+     
+}
+
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 6px 500px 6px 500px;
+    padding: 3px;
+    text-align: center;
+    
+
+     
+}
+#form-check{
+           flex-direction: row;
+           text-align: center;
+           
+           
+     
+}
+#form-check input{
+       width: 24px;
+       margin: 3px 0;
+       text-align: center;
+    
+       
+     
+}
+
+.copyright i{
+    color: yellow;
+    
+     
+}
